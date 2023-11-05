@@ -6,13 +6,12 @@ export const Navbar = () => {
     <NavbarSection>
       <NavbarContainer>
         <a href="">Home</a>
-        <a href="">Economie</a>
-        <a href="">Politica</a>
-        <a href="">Educatie</a>
-        <a href="">Sanatate</a>
-        <a href="">Opinie</a>
-        <a href="">Infrastructura</a>
-        <a href="">Administratie</a>
+        <a href="">Economy</a>
+        <a href="">Politics</a>
+        <a href="">Education</a>
+        <a href="">Health</a>
+        <a href="">Infrastructure</a>
+        <a href="">Administration</a>
       </NavbarContainer>
     </NavbarSection>
   );
