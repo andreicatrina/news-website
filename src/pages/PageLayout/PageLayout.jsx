@@ -9,7 +9,7 @@ export const PageLayout = (props) => {
     <Container>
       <Header />
       <Navbar />
-      <Landing />
+
       <Content>{props.children}</Content>
     </Container>
   );

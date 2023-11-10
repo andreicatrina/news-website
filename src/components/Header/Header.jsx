@@ -97,7 +97,9 @@ export const Header = () => {
           </ExchangeContainer>
         </HeaderExchangeContainer>
         <LogoMenuContainer>
-          <h1>ColdNews</h1>
+          <h1>
+            ColdNews<span>.com</span>
+          </h1>
           <MenuContainer>
             <SvgContainer onClick={onClickMenu}>{menu ? <AiOutlineClose /> : <HiMenu />}</SvgContainer>
             <MenuParent display={menu ? "flex" : "none"}>

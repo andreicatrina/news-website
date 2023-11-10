@@ -66,6 +66,12 @@ export const MainNewsTextContainer = styled.div`
   }
 `;
 
+export const MainStorySource = styled.span`
+  font-size: 18px;
+  font-weight: 00;
+  margin-top: 12px;
+`;
+
 export const StoryContainer = styled.a`
   display: flex;
   flex-direction: column;

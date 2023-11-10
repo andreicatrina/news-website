@@ -9,6 +9,7 @@ import {
   MainNewsContainer,
   MainNewsImageContainer,
   MainNewsTextContainer,
+  MainStorySource,
   ShortNews,
   ShortNewsContainer,
   ShortNewsDescription,
@@ -77,6 +78,7 @@ export const Landing = () => {
               <span>{`${new Date(news[1].publishedAt).toLocaleString()}`}</span>
               <p>{news[1].title}</p>
               <span>{news[1].description}</span>
+              <MainStorySource>{`-${news[1].source.name}-`}</MainStorySource>
             </MainNewsTextContainer>
           </MainNewsContainer>
           <GeneralNews>
